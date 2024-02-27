@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#Parent-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Child-div-1{
+    height: 80%;
+    width: 40%;
+    text-align: center;
+    border-radius: 25px 0 0 25px;
+    background-color: white;
+}
+
+.Child-div-1 h3{
+    margin-top: 5%;
+}
+
+.Child-div-1 h1 img{
+    height: 5vh;
+}
+
+.Child-div-1 .name{
+    color: red;
+    letter-spacing: 5px;
+}
+
+.Child-div-1 p{
+    margin: 3% 0 0 0;
+    color: gray;
+}
+
+.Child-div-1 input{
+    margin-top: 7%;
+    height: 30px;
+    width: 40%;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Child-div-1 button{
+    margin-top: 4%;
+    height: 30px;
+    width: 40%;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    transition: 1s ;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 0   px rgba(190, 10, 10, 0.481);
+}
+
+.Child-div-1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.Child-div-1 .Signup{
+    margin-left: 2%;
+    color: red;
+}
+
+.Child-div-1 .OR{
+    margin-top: 4%;
+    color: rgb(14, 13, 13);
+}
+
+.icons{
+    margin-top: 3%;
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons a{
+    height: 40px;
+    width: 40px;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Icons */
+
+.icons   .icon1{
+    color: blue;
+}
+.icons .icon2{
+    color: red;
+}
+.icons   .icon3{
+    color: black;
+}
+.icons   .icon4{
+    color: red;
+}
+.icons a i{
+    font-size: x-large;
+}
+
+/* Child-div-2 */
+
+.Child-div-2{
+    height: 80%;
+    width: 40%;
+    position: relative;
+    border-radius: 0  25px 25px 0;
+    background-color: antiquewhite;
+    /* background: url(s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.Child-div-2 img{
+    height: 80vh;
+    width: 40vw;
+    border-radius: 25px;
+}
+
+.Child-div-2 h3{
+    left: 40%;
+    bottom: 65%;
+    font-size: xx-large;
+    color: aliceblue;
+    position: absolute;
+}
+.Child-div-2 p{
+    position: absolute;
+    left: 12%;
+    bottom: 50%;
+    /* font-size: xx-large; */
+    color: aliceblue;
+}
+
+@media (max-width:600) {
+
+    
+}
+
+
+
